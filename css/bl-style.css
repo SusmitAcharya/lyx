@@ -1,3 +1,339 @@
+/*****Responsive - For Mobile*****/
+
+body
+{
+    background-color: rgb(251, 244, 226);
+}
+
+/*Image Section*/
+.color-section
+{
+    background-image: url("images/forest.png");
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-position-x: 50%;
+}
+
+/*Navigation Bar*/
+
+.navbar
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.navbar-brand
+{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 600;
+}
+.navbar-brand:hover
+{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 600;
+}
+.container-fluid
+{
+    
+    display: flex;
+    gap: 80%;
+}
+.navbar-nav
+{
+    display: flex;
+    gap: 25%;
+    font-size: 25px;
+}
+.navbar-nav .nav-link
+{
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+}
+.navbar-nav .active
+{
+    color: #EDB909;
+}
+.navbar-nav .nav-link:hover
+{
+    color: rgb(206, 206, 206)
+}
+.navbar-nav .active:hover
+{
+    color: #EDB909;
+}
+#hamburger
+{
+    border: 1px solid #fff;
+    
+    margin-top: -75px;
+    margin-left: 80%;
+}
+/*White Section*/
+.white-section
+{
+    padding-top: 7%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 7%;
+}
+/*White Section*/
+
+.white-section
+{
+    padding-top: 7%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 7%;
+}
+.frame
+{
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card
+{
+    border-bottom: 2px solid #000;
+}
+.card .img-fluid
+{
+    border-bottom: 2px solid #000;
+}
+.card .card-title
+{
+    color: #000;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+.card .card-rule
+{
+    height: 20px;
+}
+.card .card-text
+{
+    color: #000;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.row-1
+{
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn 
+{
+    0% { opacity: 0; margin-top: 5%; }
+    100% { opacity: 1; margin-top: 0; }
+}
+
+.row-2
+{
+    margin-top: 5%;
+
+    animation: fadeIn1 3s;
+}
+
+@keyframes fadeIn1 
+{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/*Footer*/
+.footer
+{
+    padding-left: 5%;
+    padding-top: 2.5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+.footer-text
+{
+    color: #000;
+    text-align: left;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+
+
+/*****Responsive - For Tablet*****/
+@media(min-width: 450px)
+{
+
+/*Navigation Bar*/
+
+.navbar
+{
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.navbar-brand
+{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 600;
+}
+.navbar-brand:hover
+{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 600;
+}
+.container-fluid
+{
+    
+    display: flex;
+    gap: 60%;
+}
+.navbar-nav
+{
+    display: flex;
+    gap: 10%;
+    font-size: 25px;
+}
+.navbar-nav .nav-link
+{
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+.navbar-nav .active
+{
+    color: #EDB909;
+}
+.navbar-nav .nav-link:hover
+{
+    color: rgb(206, 206, 206)
+}
+.navbar-nav .active:hover
+{
+    color: #EDB909;
+}
+#hamburger
+{
+    border: 1px solid #fff;
+    margin-top: -75px;
+    margin-left: 85%;
+}
+
+/*White Section*/
+
+.white-section
+{
+    padding-top: 7%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 7%;
+}
+.frame
+{
+    margin-left: -5%;
+    margin-right: -5%;
+
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card
+{
+    border-bottom: 2px solid #000;
+}
+.card .img-fluid
+{
+    border-right: 1px solid #000;
+    border-bottom: none;
+
+    max-width: 115%;
+    height: 100%;
+}
+.card .card-title
+{
+    margin-left: 3%;
+
+    color: #000;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+.card .card-rule
+{
+    margin-left: 3%;
+
+    height: 20px;
+}
+.card .card-text
+{
+    margin-left: 3%;
+
+    color: #000;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.row-1
+{
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn 
+{
+    0% { opacity: 0; margin-top: 5%; }
+    100% { opacity: 1; margin-top: 0; }
+}
+
+.row-2
+{
+    margin-top: 5%;
+
+    animation: fadeIn1 3s;
+}
+
+@keyframes fadeIn1 
+{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/*Footer*/
+.footer
+{
+    padding-left: 5%;
+    padding-top: 2.5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+.footer-text
+{
+    color: #000;
+    text-align: left;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+}
+
+
+
+/*****Responsive - For Desktop*****/
+@media(min-width: 1050px)
+{
+    
 body
 {
     background-color: rgb(251, 244, 226);
@@ -162,4 +498,6 @@ body
     font-family: 'Monsterrat', sans-serif;
     font-weight: 200;
     font-size: 17px;
+}
+
 }
