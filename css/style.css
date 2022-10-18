@@ -1,0 +1,164 @@
+body
+{
+    background-color: rgb(251, 244, 226);
+}
+
+/*Image Section*/
+.image-section
+{
+    background-image: url("images/forest.png");
+    background-size: cover;
+    background-attachment: fixed;
+
+    background-position-x: 45%;
+}
+
+/*Navigation Bar*/
+
+.navbar
+{
+    padding-left: 20%;
+    padding-right: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.navbar-brand
+{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 600;
+}
+.navbar-brand:hover
+{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 600;
+}
+.container-fluid
+{
+    
+    display: flex;
+    gap: 80%;
+}
+.navbar-nav
+{
+    display: flex;
+    gap: 25%;
+    font-size: 25px;
+}
+.navbar-nav .nav-link
+{
+    color: #fff;
+    line-height: 40px;
+}
+.navbar-nav .active
+{
+    color: #EDB909;
+}
+.navbar-nav .nav-link:hover
+{
+    color: rgb(206, 206, 206)
+}
+.navbar-nav .active:hover
+{
+    color: #EDB909;
+}
+#hamburger
+{
+    border: 1px solid #fff;
+}
+
+/*Intro*/
+.intro
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 13%;
+    padding-bottom: 13%;
+}
+.big
+{
+    text-align: center;
+
+    color: #fff;
+    font-size: 85px;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 600;
+
+    animation: fadeIn 3.5s;
+}
+
+@keyframes fadeIn 
+{
+    0% { opacity: 0; margin-top: 5%; }
+    100% { opacity: 1; margin-top: 0; }
+}
+
+.small
+{
+    margin-top: 2%;
+    text-align: center;
+    
+    color: #fff;
+    font-size: 32.5px;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 500;
+
+    animation: fadeIn1 3.5s;
+}
+
+@keyframes fadeIn1 
+{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.abt
+{
+    margin-left: 42%;
+    margin-right: 42%;
+    margin-top: -6.5%;
+    text-align: center;
+    border-radius: 100px;
+
+    background-color: #fff;
+    color: #000;
+    font-size: 50px;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 600;
+
+    animation: fadeIn1 3.5s;
+}
+.abt-text
+{
+    margin-left: 24%;
+    margin-right: 24%;
+    margin-top: 3%;
+    text-align: justify;
+
+    color: #fff;
+    font-size: 27.5px;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 500;
+
+    animation: fadeIn1 3.5s;
+}
+
+/*Footer*/
+.footer
+{
+    padding-left: 5%;
+    padding-top: 2.5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+.footer-text
+{
+    color: #fff;
+    text-align: left;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+}
